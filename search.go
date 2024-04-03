@@ -1,3 +1,26 @@
+// Package searchpackage provides functionalities for searching and processing text in files.
+//
+// The package includes functions to search for a specified word within text files (both .txt and .csv formats),
+// process each line or record containing the word, and optionally colorize the word for better visibility.
+// It offers the flexibility to either print the matching lines to the standard output or write them to a destination file.
+//
+// Usage:
+// 1. Initialize the search criteria using InitSearch function, providing the word to search, input file path, and optional destination file path.
+// 2. Execute the search using PerformSearch function, which processes the input file based on its extension (.txt or .csv).
+//
+// Example:
+//	// Initialize search with a word, input file, and optional destination file
+//	searchpackage.InitSearch("example", "input.txt", "output.txt")
+//
+//	// Perform the search
+//	searchpackage.PerformSearch()
+//
+// In this example, the package searches for the word "example" in the "input.txt" file, colorizes occurrences of the word,
+// and writes the matching lines to the "output.txt" file.
+//
+// Note: This package utilizes goroutines to concurrently process lines or records in the input file,
+// enhancing performance for large files.
+
 package searchpackage
 
 // searchpackage is a simple package for searching and processing text in files.
