@@ -1,6 +1,6 @@
 ##search-go
 
-`go-search-package` is a Go package designed for searching and processing text in files. It provides a flexible way to search for a specific word in both plain text and CSV files, allowing you to colorize the found word and optionally save the results to a file.
+`search-go` is a Go package designed for searching and processing text in files. It provides a flexible way to search for a specific word in both plain text and CSV files, allowing you to colorize the found word and optionally save the results to a file.
 
 ## Installation
 
